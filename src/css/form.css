@@ -1,5 +1,16 @@
+:root{
+  --light_grey: #cac8cb;
+  --darck_green:#027232;
+  --light_green: #91c711;
+  --sky_blue:   #7fb7d2;
+  --king_blue:  #179bc1;
+  --blue: #007da4;
+  --low_black: #414141;
+  --white:  #ffffff;
+  
+}
 .form a {
-    color: var(--hospital-green);
+    color: var(--);
     font-size: var(--sm);
     text-align: center;
     text-decoration: none;
