@@ -1,0 +1,11 @@
+{
+    "name": "root/src",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "AlanRosasGarcia",
+            "email": "turingrg18@gmail.com"
+        }
+    ],
+    "require": {}
+}
