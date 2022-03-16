@@ -18,10 +18,10 @@
         <div class="title">
             <h2>Registrate</h2>
         </div>
-        <form action="" class="form">
+        <form action="insert.php" method="post" class="form">
             <div class="nombre_css">
                 <label class="label">nombre </label>
-                <input type="text" class="form-control name" id="name" >
+                <input type="text" class="form-control name" id="name" name="name">
             </div>
             <div class="apellido_paerno_css">
                 <label class="label">apellido paterno</label>
@@ -46,10 +46,12 @@
                 <label class="label">contraseña</label>
                 <input type="password" class="form-control contrasena" name="contraseña" id="contraseña">
             </div>
-            <button onclick="emvio" class="primary-button login-button">insertar datos</button>
+            <button onclick="emvio" name="register" class="primary-button login-button">insertar datos</button>
         </form>
     <div><nav><a href="#">Registrarte</a></nav></div>
-
+            <?php
+                include("insert.php");
+            ?>
     </div>
     </div>
 </body>
