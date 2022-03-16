@@ -12,7 +12,7 @@ if(isset($_POST['register'])){
 //     $name = trim($_POST['name']);
 //     $name = trim($_POST['name']);
 //     $name = trim($_POST['name']);
-    $consultas="INSERT INTO form( nombre, apellido_p, apellido_m, edad,/* sexo,*/ contrasena) VALUES ('$name','$apellido','$apellido_m','$edad',$contraseña)";
+    $consultas="INSERT INTO form( nombre, apellido_p, apellido_m, edad,/* sexo,*/ contrasena) VALUES ('$name'.'$apellido'.'$apellido_m'.'$edad'.$contraseña)";
     $resultado = mysqli_query($conex,$consultas);
 }
 else{
